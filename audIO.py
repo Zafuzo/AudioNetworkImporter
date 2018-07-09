@@ -28,12 +28,10 @@ def main():
   export_location = ""
   print export_location
   
-  url1 = "https://affiliate.radionetworks.com/wp-content/plugins/common-core/af-download.php?file=kin_kan_pgms%2FSPKA10.wav"
-  name1 = "KAN1"
-  url2 = "https://affiliate.radionetworks.com/wp-content/plugins/common-core/af-download.php?file=kin_kan_pgms%2FSPKA11.wav"
-  name2 = "KAN2"
-  url3 = "https://affiliate.radionetworks.com/wp-content/plugins/common-core/af-download.php?file=kin_kan_pgms%2FSPKA12.wav"
-  name3 = "KAN3"
+  
+  #Add List structure for multiple files / def for entire process / config vars for setup
+  url1 = ""
+  name1 = ""
   
   
   #Get Pydub Wave Audio File From Web
